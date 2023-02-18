@@ -73,6 +73,12 @@ Account display name: hello@genify.ai
 * For each sms, label the tokens/words in the sms using the sms\_token\_label\_set
 * To label the sms-category, press on the left of the sms (on the sms number) to select the whole line and then add a category label to the sms using the  sms\_category\_label\_set
 
+<img
+  src="/images/7.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; width:auto">
+
 Example of labeled SMS:
 
 <img
