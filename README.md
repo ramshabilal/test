@@ -1,12 +1,4 @@
-# test
-
-<img
-  src="/images/Screenshot_20221029_095552.png"
-  alt="Alt text"
-  title="Optional title"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
-
-# Genify SMS Templates Pipeline - A Guide
+# **Genify SMS Templates Pipeline - A Guide**
 
 * The process does not cover ‘sender categories’
 * Quantify frequency and relevancy!
@@ -49,28 +41,33 @@ Account display name: hello@genify.ai
     *  Password: genify\_SMS\_2233
 * Create a new NER project
 * Import the text file of the unique candidate SMS
+
 <img
   src="/images/1.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">  
+  style="display: inline-block; margin: 0 auto; width:auto; max-width: 500px">
+  
 * Import two label sets from Github: [sms\_token\_label\_set.json](https://github.com/genifyai/sms-labeling/blob/main/sms_token_label_set.json) and [sms\_category\_label\_set.json](https://github.com/genifyai/sms-labeling/blob/main/sms_category_label_set.json). More labels can be added to these label sets if needed.
+
 <img
   src="/images/2.png"
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
+  
 * In the extensions, turn on the ML-assisted labeling option (and any others if needed) to get suggestions. Pick a service provider such as CoreNLP NER and use the ‘predict labels’ option to get suggestions. Limitation: These suggestions, however, are limited to the labels known to the service provider and are not influenced by our own label sets
+
 <img
   src="/images/3.png"
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
+  
   <img
   src="/images/4.png"
-  alt="Alt text"
-  title="Optional title"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto; max-width: 300px; ">
+  
 * While labeling, use keyboard shortcuts. Press Ctrl + / to view all the keyboard shortcuts. Some useful shortcuts:
     * arrows to jump from one word to the next
     * Alt + label-set-number to alternate between label sets. For example, Alt+1 will choose the first label set
@@ -79,6 +76,7 @@ Account display name: hello@genify.ai
 * To label the sms-category, press on the left of the sms (on the sms number) to select the whole line and then add a category label to the sms using the  sms\_category\_label\_set
 
 Example of labeled SMS:
+
 <img
   src="/images/5.png"
   alt="Alt text"
