@@ -52,7 +52,7 @@ Account display name: hello@genify.ai
   src="/images/2.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto;width:auto">
   
 * In the extensions, turn on the ML-assisted labeling option (and any others if needed) to get suggestions. Pick a service provider such as CoreNLP NER and use the ‘predict labels’ option to get suggestions. Limitation: These suggestions, however, are limited to the labels known to the service provider and are not influenced by our own label sets
 
@@ -60,11 +60,11 @@ Account display name: hello@genify.ai
   src="/images/3.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto; width:auto;">
   
   <img
   src="/images/4.png"
-  style="display: inline-block; margin: 0 auto; max-width: 300px; ">
+  style="display: inline-block; margin: 0 auto; width:auto; ">
   
 * While labeling, use keyboard shortcuts. Press Ctrl + / to view all the keyboard shortcuts. Some useful shortcuts:
     * arrows to jump from one word to the next
@@ -79,7 +79,7 @@ Example of labeled SMS:
   src="/images/5.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto; width:auto">
 
 * Once labeling is complete, mark the project as complete and export the file as a JavaScript Object Notation (.json) - (DEPRECATED) file
 
@@ -98,7 +98,7 @@ Processing the (DEPRECATED) .json
   src="/images/6.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto; width:auto">
 
 
 
