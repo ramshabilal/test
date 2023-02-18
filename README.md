@@ -52,7 +52,7 @@ Account display name: hello@genify.ai
   src="/images/2.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto;width:auto">
+  style="display: inline-block; margin: 0 auto; width:auto">
   
 * In the extensions, turn on the ML-assisted labeling option (and any others if needed) to get suggestions. Pick a service provider such as CoreNLP NER and use the ‘predict labels’ option to get suggestions. Limitation: These suggestions, however, are limited to the labels known to the service provider and are not influenced by our own label sets
 
