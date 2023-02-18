@@ -1,15 +1,13 @@
 # **Genify SMS Templates Pipeline - A Guide**
 
-* The process does not cover ‘sender categories’
-* Quantify frequency and relevancy!
+* Note: The process does not cover ‘sender categories’
+* Key bottleneck: is output from Postman directly importable into datasaur or needs processing?
 
 # Components
 
 1. SMS Clustering Endpoint: EZLoan API on Postman
 1. Data Labeling Tool: Datasaur.ai
 1. Labeled Data Processing Script: test.py
-
-(bottleneck: is output from Postman directly importable into datasaur or needs processing?)
 
 # Journey
 
@@ -46,7 +44,7 @@ Account display name: hello@genify.ai
   src="/images/Screenshot_20230218_075027.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width:auto; max-width: 500px">
+  style="display: inline-block; margin: 0 auto; width:auto; ">
   
 * Import two label sets from Github: [sms\_token\_label\_set.json](https://github.com/genifyai/sms-labeling/blob/main/sms_token_label_set.json) and [sms\_category\_label\_set.json](https://github.com/genifyai/sms-labeling/blob/main/sms_category_label_set.json). More labels can be added to these label sets if needed.
 
