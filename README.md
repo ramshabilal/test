@@ -1,7 +1,7 @@
 # test
 
 <img
-  src="/images/img.jpg"
+  src="/images/Screenshot_20221029_095552.png"
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
