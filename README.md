@@ -43,7 +43,7 @@ Account display name: hello@genify.ai
 * Import the text file of the unique candidate SMS
 
 <img
-  src="/images/1.png"
+  src="/images/Screenshot_20230218_075027.png"
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; width:auto; max-width: 500px">
